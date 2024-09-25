@@ -177,11 +177,11 @@ public enum PsychologicalTestType {
     }
 
     public static List<String[]> getList() {
-        return List.of(new String[] {COMPULSION.name(), COMPULSION.title ,"강박증 자가진단 시작하기"},
-                new String[] {EVASION.name(), EVASION.title, "사회 공포/회피 자가진단 시작하기"},
-                new String[] { STRESS.name(), STRESS.title, "스트레스 자가진단 시작하기"},
-                new String[] { INTERNET_ADDICTION.name(), INTERNET_ADDICTION.title, "인터넷 중독 자가진단 시작하기"},
-                new String[] { EATING_DISORDER.name(), EATING_DISORDER.title, "섭식장애 자가진단 시작하기" });
+        return List.of(new String[] {COMPULSION.name(), COMPULSION.title , "강박증은 반복적인 생각과 행동으로 일상에 영향을 줄 수 있습니다. 자가진단을 통해 자신의 강박적 증상을 점검해 보세요.", "강박증 자가진단 시작하기"},
+                new String[] {EVASION.name(), EVASION.title, "사회적 상황에서의 두려움과 불안이 일상에 지장을 주고 있나요? 자가진단을 통해 자신의 사회적 불안을 점검해 보세요.", "사회 공포/회피 자가진단 시작하기"},
+                new String[] { STRESS.name(), STRESS.title, "스트레스는 우리의 신체적, 정신적 건강에 큰 영향을 미칠 수 있습니다. 자가진단을 통해 현재의 스트레스 수준을 알아보세요.", "스트레스 자가진단 시작하기"},
+                new String[] { INTERNET_ADDICTION.name(), INTERNET_ADDICTION.title, "인터넷 사용이 일상생활에 영향을 미치고 있나요? 자가진단을 통해 자신의 인터넷 사용 습관을 돌아보세요.", "인터넷 중독 자가진단 시작하기"},
+                new String[] { EATING_DISORDER.name(), EATING_DISORDER.title, "섭식장애는 음식과 체중에 대한 부정적인 생각과 행동을 포함합니다. 자가진단을 통해 자신의 식습관과 심리적 상태를 알아보세요.", "섭식장애 자가진단 시작하기" });
     }
 
     public abstract Map<String, String> getResult(long score);

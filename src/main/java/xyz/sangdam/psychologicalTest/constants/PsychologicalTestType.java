@@ -177,11 +177,11 @@ public enum PsychologicalTestType {
     }
 
     public static List<String[]> getList() {
-        return List.of(new String[] {COMPULSION.name(), COMPULSION.title ,"강박증은 불안장애의 하나로서, 반복적이고 원하지 않는 강박적 사고와 행동을 특징으로 하는 정신질환이다. 잦은 손 씻기, 숫자 세기, 확인하기, 청소하기 등과 같은 행동을 반복적으로 함으로써 강박적 사고를 막거나 그 생각을 머리에서 지우려고 하는 경우가 흔하다."},
-                new String[] {EVASION.name(), EVASION.title, "사회 공포증은 다른 사람들 앞에서 당황하거나 바보스러워 보일 것 같은 사회 불안을 경험한 후 다양한 사회적 상황을 회피하게 되고 이로 인해 사회적 기능이 저하되는 정신과적 질환이다. 사회 공포증을 가진 사람들은 다양한 사회적 상황에서 창피를 당하거나 난처해지는 것에 대한 과도한 두려움과 심한 불안감을 느낀다."},
+        return List.of(new String[] {COMPULSION.name(), COMPULSION.title ,"강박증은 불안장애의 하나로서, 반복적이고 원하지 않는 강박적 사고와 행동을 특징으로 하는 정신과적 질환이다."},
+                new String[] {EVASION.name(), EVASION.title, "사회 공포증은 다른 사람들 앞에서 당황하거나 바보스러워 보일 것 같은 사회 불안을 경험한 후 다양한 사회적 상황을 회피하게 되고 이로 인해 사회적 기능이 저하되는 정신과적 질환이다."},
                 new String[] { STRESS.name(), STRESS.title, "어떠한 변화에 대한 우리 몸의 적응, 조정 과정으로 신체적, 정신적, 감정적 반응을 모두 포함합니다. 스트레스는 화가 나거나 짜증 및 불안을 유발하는 모든 상황에서 발생할 수 있으며 스트레스 유발요인에 의해서도 발생합니다."},
-                new String[] { INTERNET_ADDICTION.name(), INTERNET_ADDICTION.title, "컴퓨터 사용 및 인터넷 이용과 관련된 과도한 집착이나 충동적인 행동을 보이고 이로 인해 사회적 기능에 장애를 일으키며 경우에 따라서는 우울증, 사회적 고립, 충동 조절 장애와 약물 남용 등의 문제를 일으키는 상태를 일컫는 말이다."},
-                new String[] { EATING_DISORDER.name(), EATING_DISORDER.title, "식이 행동과 관련된 이상 행동과 생각을 통틀어 일컫는 것이며, 이에는 신경성 식욕부진증, 신경성 과식증, 비만이 포함된다.신경성 식욕부진증에서는 체중이 느는 것에 대한 극도의 공포를 보이고, 최소한의 정상체중을 유지하는 것을 거부하며 살을 빼려는 지속적인 행동을 보인다." });
+                new String[] { INTERNET_ADDICTION.name(), INTERNET_ADDICTION.title, "컴퓨터 사용 및 인터넷 이용과 관련된 과도한 집착이나 충동적인 행동을 보이고 이로 인해 사회적 기능에 장애를 일으키며 경우에 따라서는 우울증, 사회적 고립, 충동 조절 장애와 약물 남용 등의 문제를 일으킨다."},
+                new String[] { EATING_DISORDER.name(), EATING_DISORDER.title, "식이 행동과 관련된 이상 행동과 생각을 통틀어 일컫는 것이며, 체중이 느는 것에 대한 극도의 공포심을 느끼고 살을 빼려는 지속적인 행동을 보인다." });
     }
 
     public abstract Map<String, String> getResult(long score);
